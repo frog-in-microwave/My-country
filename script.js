@@ -8,7 +8,7 @@ let is_rotated_n_a_main = false;
 let is_rotated_n_a_middle = false;
 let is_translation_spread = false;
 let trash_picked_up = 0;
-
+let table_of_contents_is_spread = false;
 //loader at work
 window.addEventListener('load' , function(){
     document.getElementById("preloader").style.display = "none";
@@ -32,6 +32,21 @@ function open_national_anthem_main(){
         is_rotated_n_a_main = false;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // same for the middle section (is_rotated_n_a_middle)
 
@@ -715,6 +730,7 @@ function submit_food_event(){
         `;
     }
     tabbouleh_score = 0;
+    
 }
 
 // wanted to do something when all the events are done but didn't have the time but I have proof that I tried 
