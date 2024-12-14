@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Night Life</title>
+</head>
+<body>
+    <div id="preloader"></div>
+    <style>
+        body{
+            background-color: #1A1A2E;
+        }
+    </style>
+    <div class="navbar">
+        <a href="index.html" class="nav_bar_button_nightlife"><span>Home</span></a>
+        <a href="history.html" class="nav_bar_button_nightlife"><span>History</span></a>
+        <a href="community.html" class="nav_bar_button_nightlife"><span>Community</span></a>
+        <a href="nature.html" class="nav_bar_button_nightlife"><span>Nature</span></a>
+        <span class="nav_bar_button_nightlife">Night-Life</span>
+        <a href="food.html" class="nav_bar_button_nightlife"><span>Food</span></a>
+    </div>
+
+    <div class="title_home" style="background-image: url(images/nightlife_title_image.jpeg);">
+    </div>
+    <div class="title_overlay">
+        <h1 class="title neon" style=" font-family: Brush Script MT; font-size: 120px;">Lebanese Nightlife</h1>
+    </div>
+    
+   <div id="rotating_lights" style="position: absolute;
+   top: 100px;
+   left: 43%;">
+    <div style="position: relative;
+    top: 0px;
+    left: 0px;">
+        <div style="position: relative;
+        width: 40px;">
+
+        <div style="height: 50px;
+        width: 20px;
+        background-color: #18172c;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #ffffff;
+        border-radius: 1000px;
+        position: absolute;
+        left: 24%;
+        z-index: 2;">
+
+        </div>
+        <div id="rotating_thing1" style="position: absolute; 
+        top: 20px;
+        left: 0px;
+        z-index: 1;">
+            <div style="height: 55px;
+                width: 40px;
+                background-color: #18172c;
+                border-style: solid;
+                border-width: 1px;
+                border-color: #ffffff;
+                border-radius: 5px;
+                position: relative;">
+                <div style="height: 10px;
+                width: 35px;
+                background-color: #e0dff3;
+                border-radius: 15px;
+                position: absolute;
+                top: 80%;
+                left: 5%;">
+            </div>
+        </div>
+            
+        </div>
+    </div>
+    </div>
+
+
+
+    <div style=" position: relative;
+    margin-left: 100px;">
+        <div style="position: relative;
+        width: 40px;">
+
+        <div style="height: 50px;
+        width: 20px;
+        background-color: #18172c;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #ffffff;
+        border-radius: 1000px;
+        position: absolute;
+        left: 24%;
+        z-index: 2;">
+
+        </div>
+        <div id="rotating_thing2" style="position: absolute; 
+        top: 20px;
+        left: 0px;
+        z-index: 1;">
+            <div style="height: 55px;
+                width: 40px;
+                background-color: #18172c;
+                border-style: solid;
+                border-width: 1px;
+                border-color: #ffffff;
+                border-radius: 5px;
+                position: relative;">
+                <div style="height: 10px;
+                width: 35px;
+                background-color: #e0dff3;
+                border-radius: 15px;
+                position: absolute;
+                top: 80%;
+                left: 5%;">
+            </div>
+        </div>
+            
+        </div>
+    </div>
+    </div>
+   </div>
+   <div class="light_beam1"></div>
+   <div class="light_beam2"></div>
+
+
+   <article>
+        <section class="night_life_fact">
+            <h2>Lebanon After Dark</h2>
+            <img src="images/lebanese_nightlife_picture1.jpeg" alt="picture of a lebanese concert">
+            <p>Lebanese nightlife is renowned for its vibrant, energetic, and cosmopolitan atmosphere that draws visitors from around the world. Known as one of the Middle East's top party destinations, Lebanon offers a nightlife scene that combines modern sophistication with a lively spirit unique to the region. In cities like Beirut, you’ll find an eclectic mix of upscale rooftop bars, bustling clubs, and lively beachside venues where people dance late into the night. The country's nightlife is deeply shaped by its Mediterranean charm and diverse cultural influences, giving each venue its own character, from chic lounges playing international beats to local spots showcasing Arabic music and live performances. Despite Lebanon's challenges, its nightlife scene remains resilient, symbolizing a celebration of life and an unwavering zest for enjoyment that is both inspiring and unforgettable.</p>
+            <hr>
+        </section>
+        <section class="night_life_fact">
+            <h2>Jounieh</h2>
+            <img src="images/jounieh_picture.jpeg" alt="picture of the city of jounieh" style="float: left; margin-right: 15px; margin-left: 0px;">
+            <p>Jounieh, a stunning coastal city north of Beirut, is known for its scenic beauty and an electric nightlife that rivals the best in Lebanon. Nestled between the mountains and the Mediterranean Sea, Jounieh transforms after dark into a vibrant hub of energy and excitement. The city boasts a dynamic mix of clubs, rooftop bars, and seaside lounges that draw crowds of locals and tourists alike. Partygoers in Jounieh can experience everything from chic venues with panoramic sea views to lively clubs pumping out a mix of Arabic and international beats. With its warm, welcoming atmosphere, Jounieh’s nightlife scene combines Lebanese hospitality with a cosmopolitan flair, making it a must-visit destination for anyone looking to experience Lebanon's legendary nightlife.</p>
+            <hr>
+        </section>
+
+
+   </article>
+
+
+    <div class="night_life_event">
+        <h2>The Nightlife Event!</h2>
+        <div>
+            <h3>Question: You have just entered Casino Du Liban, on which color are you betting?</h3>
+            <div class="button_container" id="nightlife_answer">
+                <button style="background-color: #ff0000;" onclick="finnish_event_nightlife()">Red</button>
+                <button style="background-color: #000000;" onclick="finnish_event_nightlife()">black</button>
+                <button style="background-color: #00ff00;" onclick="finnish_event_nightlife()">green</button>
+            </div>
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
