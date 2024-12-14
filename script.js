@@ -152,7 +152,7 @@ function right_or_wrong(x){
         home_event_score++;
     }
     else{
-        document.getElementById("question_down_" + String(home_event_rounds)).style.backgroundColor = "#00ff00";   
+        document.getElementById("question_down_" + String(home_event_rounds)).style.backgroundColor = "#ff0000";   
     }
     
     // listing the score and the congrats message when the home_event_rounds become 3
